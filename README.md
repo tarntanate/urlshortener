@@ -1,4 +1,4 @@
-## A list of security issues for this demo app
+## A list of security issues for this version
 
 * Url shorten form is not validate against spam or bot. We need to implement something like reCaptcha or a limitation per user/session. (we need more time to implement that feature)
 * It is not currently validate maximum url text length to be shorten.
