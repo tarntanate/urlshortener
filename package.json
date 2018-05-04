@@ -1,0 +1,31 @@
+{
+  "name": "url-shortener",
+  "version": "1.0.0",
+  "description": "a url shortender app",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tarntanate/urlshortener.git"
+  },
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "mocha test"
+  },
+  "keywords": [
+    "url",
+    "shortener"
+  ],
+  "author": "Tarntanate Memanee",
+  "license": "ISC",
+  "devDependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "mocha": "^5.1.1"
+  },
+  "dependencies": {
+    "mongoose": "^5.0.17",
+    "url-regex": "^4.1.1",
+    "valid-url": "^1.0.9"
+  }
+}
