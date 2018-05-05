@@ -4,7 +4,7 @@
 * It is not currently validate maximum url text length to be shorten.
 * It is not tested against Unicode characters in url (like thai language)
 * It is not checking for existing full url in system. (eg. there might be many shorten urls for just a same full url.)
-* There's might be a chance that Duplication of Shorten-Url occurs. Since shorten url length is default to just 5 charactors. We didn't provide checking for duplication yet.
+* There's might be a chance that Duplication of Shorten-Url occurs. Since a randomly generated shorten url length is default to just 5 charactors. We didn't provide checking for duplication yet. An alternative solution is using hashing instead of generating random string.
 * API should NOT be able to calling directly from other http. It should be able to call from Its own web application only. So, It's need to implement more on CORS or request hostname or something like Forgery Token.
 * The database (MongoDb) is not implementing removing old records. So, database size may grow unlimitedly.
 
