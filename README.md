@@ -12,5 +12,5 @@
 
 ## A list of scalability issues
 
+* Currently does not utilizing cluster node, or load-balancer.
 * Currently does not split the UI and the API separately.
-* Currently not support to scale up with cloud database. This demo app is using a single mongoDb instance.
